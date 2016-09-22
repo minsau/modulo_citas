@@ -136,7 +136,7 @@ $path = 'lib/';
             <div id="{{val.id}}" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="{{'heading_'+val.id}}">
               <div class="panel-body">
                 {{val.descripcion}}
-                <br><br><a data-toggle="modal" ng-click="setRuta(archivo.id)" data-target="#verArchivo" ng-repeat="archivo in archivos">Ver {{archivo.nombre}}</a>
+                <br><br><a data-toggle="modal" ng-click="setRuta(archivo.id)" data-target="#verArchivo" ng-repeat="archivo in archivos">Ver {{archivo.nombre}}</br></a>
               </div>
             </div>
           </div>
